@@ -1,10 +1,15 @@
 import os
 from pathlib import Path
+import sys
+
+sys.path.append(os.path.abspath("src"))
 
 package_name="GemstonePricePrediction"
 
 list_of_files=[
     "github/workflows/.gitkeep",
+    "__init__.py",
+    "src/",
     f"src/{package_name}/__init__.py",
     f"src/{package_name}/components/__init__.py",
     f"src/{package_name}/components/data_ingestion.py",

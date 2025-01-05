@@ -5,7 +5,6 @@ from src.GemstonePricePrediction.exception import customexception
 
 import os
 import sys
-import sys
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 from pathlib import Path

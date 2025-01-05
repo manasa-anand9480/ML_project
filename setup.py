@@ -1,3 +1,4 @@
+
 from setuptools import find_packages,setup
 from typing import List
 
@@ -17,7 +18,7 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='GemstonePricePrediction',
     version='0.0.1',
-    author='Manasa H A',
+    author='Manasa',
     author_email='hamanasa20@gmail.com',
     install_requires=["scikit-learn","pandas","numpy"],
     packages=find_packages()
