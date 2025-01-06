@@ -4,7 +4,7 @@ from src.GemstonePricePrediction.components.data_transformation import DataTrans
 
 from src.GemstonePricePrediction.components.model_trainer import ModelTraining
 
-"""from src.GemstonePricePrediction.components.model_evaluation import ModelEvaluation"""
+from src.GemstonePricePrediction.components.model_evaluation import ModelEvaluation
 
 
 import os
